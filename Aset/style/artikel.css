@@ -1,0 +1,27 @@
+
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #ddd;
+}
+
+#navbar ul {
+  float: right;
+  display: block;
+  color: antiquewhite;
+  text-align: center;
+  padding: 18px 18px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#navbar ul a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar ul a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
