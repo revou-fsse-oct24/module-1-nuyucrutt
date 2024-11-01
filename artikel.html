@@ -29,6 +29,19 @@
                 margin: 0;
                 background-image: url(Aset/1.png);
                 background-repeat: no-repeat;
+                
+            }
+            @media only screen and (max-width: 600px) {
+                body {
+                        background-color: lightblue;
+                }
+            }
+            nav ul a:hover{
+                background-color: rgb(236, 237, 237);
+                list-style-type: none;
+                padding: 8px;
+                
+
             }
         </style>
 
@@ -39,10 +52,10 @@
         <header style= "background-color: #eeeeef8a;; width: 75%; padding-left: 15%;  padding-right: 10%; background-attachment: fixed; " >
             <img src="Aset/Logo-NH.png" style=" padding-left: 1%; padding-top: 5%; float: left; height: 4%; width: 20%;">
             <h1 style=" font-family: Serif; float: center; font-size: 5vw; text-align:center; padding-top: 7%; text-shadow: 10vw #FFC6C6;" > NH Artikel <br> <p style="font-size: 30px;">Love Information</p> </h1>
-            <marquee direction='right' style=" padding-bottom: 2%; font-size: 30px; color: rgba(207, 147, 190, 0.859)">  “Kami percaya bahwa setiap orang berhak mendapatkan akses terhadap informasi yang berkualitas” </marquee>
+            <marquee direction='right' style=" padding-bottom: 2%; font-size: 30px; color: rgba(207, 147, 190, 0.859); max-width: 600px;">  “Kami percaya bahwa setiap orang berhak mendapatkan akses terhadap informasi yang berkualitas” </marquee>
             <!--p style=" float: center; font-size: 2vw; text-align:center; animation: mymove 5s infinite; ">“Kami percaya bahwa setiap orang berhak mendapatkan akses terhadap informasi yang berkualitas”</p-->
         </header>
-        <nav>
+        <nav style=" display: flex; flex-direction: row; position: sticky; top: 0; overflow: hidden; background-color: #FFC6C6; " >
             <ul  style="display: block; align-self: hover; ">
                 <a href="index.html">Home </a> 
                 <a href="artikel.html">Artikel</a>
@@ -64,7 +77,6 @@
             </ul>
         
         </section>
-
         <main style="background-color: #eeeeef8a; width: 75%; padding-left: 15%;  padding-right: 10%; padding-bottom: 40%; ">
             <article>
                 <h1 style="font-size: 300%; padding-top: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Artikel </h1>
